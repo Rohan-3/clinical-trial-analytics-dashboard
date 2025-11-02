@@ -40,3 +40,17 @@ npm run seed
 # After Seeding data Start the backend server
 node index.js
 ```
+
+### Frontend Setup (Client)
+```bash
+# Once server is started Navigate to the client directory
+cd client
+# Copy example environment file (example : VITE_API_BASE_URL=http://localhost:PORT/api/analytics)
+cp .env.example .env 
+# Install dependencies
+npm install
+
+# Start the frontend development server
+npm run dev
+
+```

@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.recharts-sector,
+.recharts-layer,
+.recharts-pie,
+.recharts-surface {
+    outline: none !important;
+    outline-color: none;
+    outline-style: none;
+    outline-width: none;
+}
