@@ -56,7 +56,7 @@ const LocationChart = ({isFullDisplay = false}) => {
           dataKey="country"
           barKey="Facilities"
           barColor="#10B981"
-          tooltipLabel="Facilities: "
+          tooltipLabel=""
           horizontal
           className="w-full"
           isFullDisplay={isFullDisplay}

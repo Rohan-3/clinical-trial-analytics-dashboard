@@ -57,7 +57,7 @@ const TrialsPerCityChart = ({isFullDisplay = false}) => {
           data={chartData}
           dataKey="name"
           barKey="Facilities"
-          tooltipLabel="Facilities: "
+          tooltipLabel=""
           barColor="#7C3AED"
           className="w-full"
           isFullDisplay={isFullDisplay}
